@@ -135,7 +135,8 @@ body {
 .header-studio--button {
   width: 200px;
   height: 50px;
-  background-color: #f5f4fa;
+  background-color: #2196f3;
+  color: #fff;
   border-radius: 4px;
   border: 0px;
   font-weight: bold;
@@ -150,7 +151,6 @@ body {
 }
 
 .header-studio--button:hover {
-  background-color: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
@@ -415,12 +415,12 @@ body {
   transition-duration: 250ms;
 }
 
-.footer-social:hover {
+.social--footer:hover {
   background-color: #2196f3;
   color: #fff;
 }
 
-.social--icon--footer {
+.social--icon-footer {
   fill: currentColor;
 }
 
@@ -737,16 +737,11 @@ body {
   outline: none;
 }
 
-.modal--form-textfield:focus{
-  border: 1px solid #2196f3;
-  outline: none;
-}
-
 .form--textfield:focus + .form--icon{
   fill:#2196f3;
 }
 
-.footer-form-btn {
+.footer-form--btn {
   color: #fff;
   background-color: #2196f3;
   width: 200px;
@@ -765,6 +760,7 @@ body {
   margin-left: 77px;
   display: flex;
   justify-content: center;
+  margin-bottom: 24px;
 }
 
 .footer-form--header{
