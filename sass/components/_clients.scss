@@ -49,8 +49,8 @@
   transition-duration: 250ms;
   transition-property: border color;
   &:hover {
-    border: 1px solid #2196f3;
-    color: #2196f3;
+    border: 1px solid $color-highlight;
+    color: $color-highlight
   }
   &--logo {
     fill: currentColor;

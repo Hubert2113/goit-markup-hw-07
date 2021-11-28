@@ -17,6 +17,8 @@ body {
 @import "components/_contact";
 @import "components/_clients";
 @import "components/_about-us";
+@import "components/buttons-box";
+@import "components/projects-box";
 
 .container {
   width: 1200px;
@@ -27,16 +29,16 @@ body {
   justify-content: center;
   align-items: center;
 }
-
 .column {
   flex-direction: column;
 }
 
 .header-top--border {
   display: flex;
-  width: 100%;
+  min-width: 1600px;
   height: 80px;
   align-items: center;
+  border-bottom: 1px #ececec solid;
 }
 
 .lorem-ipsum {
@@ -51,11 +53,15 @@ body {
 }
 
 .main {
-  width: 100%;
+  min-width: 1600px;
+}
+
+.desc {
+  min-width: 1600px;
 }
 
 .footer {
-  width: 100%;
+  min-width: 1600px;
   height: 252px;
   $color-background: #2f303a;
   background-color: $color-background;

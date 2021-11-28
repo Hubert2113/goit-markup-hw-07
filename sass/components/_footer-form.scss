@@ -10,7 +10,8 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    background: #2f303a;
+    $color-background: #2f303a;
+    background: $color-background;
     margin-right: 12px;
     padding-left: 16px;
     color: $color-accent;
@@ -37,7 +38,7 @@
     align-items: center;
   }
   &--textfield:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $color-highlight;
     outline: none;
   }
 }

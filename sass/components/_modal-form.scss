@@ -7,7 +7,7 @@
   margin-bottom: 10px;
   padding-left: 40px;
   &:focus {
-    border: 1px solid #2196f3;
+    border: 1px solid $color-highlight;
     outline: none;
   }
 }
